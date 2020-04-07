@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import NavigationBar from './components/NavigationBar/NavigationBar';
+import Index from './pages/index'
 
 function App() {
   return (
     <div>
-      <NavigationBar />
+      <Index />
     </div>
   );
 }
