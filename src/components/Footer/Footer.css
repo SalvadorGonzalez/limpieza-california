@@ -1,0 +1,31 @@
+#footer-first-column{
+    background-color:#222;
+    color:#9d9d9d;
+    padding:20px 20px;
+}
+
+#frame-map{
+    border:0;
+    width: 400px;
+}
+
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+@media (max-width: 496px){
+    #frame-map{
+        width: 320px !important;
+    }
+}
+
+@media (max-width: 420px){
+    #frame-map{
+        width: 250px !important;
+    }
+}
+
+#footer-b{
+    margin: 0px 0;
+}
