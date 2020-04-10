@@ -8,7 +8,7 @@ const divStyle = {
 };
 
 const NavigationBar = () => (
-  <nav className="navbar navbar-expand-md navbar-light" style={divStyle} id="main-navigation">
+  <nav className="navbar navbar-expand-md fixed-top navbar-light" style={divStyle} id="main-navigation">
     <a href="#">
       <img src={logo} id="logo-limpieza"></img>
     </a>
