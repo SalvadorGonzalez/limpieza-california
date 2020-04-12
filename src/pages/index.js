@@ -8,7 +8,8 @@ import mantenimiento from './img/limpieza-mantenimiento.jpg';
 import obra from './img/limpieza-obra.jpg';
 import industrial from './img/limpieza-industrial.jpg';
 import sillon from './img/limpieza-sillon.jpg';
-import garantia from './img/garantia.png'
+import garantia from './img/garantia.png';
+import experiencia from './img/experiencia.png';
 
 const Index = () =>(
     <div>
