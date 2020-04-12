@@ -12,9 +12,9 @@ import sillon from './img/limpieza-sillon.jpg';
 const Index = () =>(
     <div>
             <NavigationBar />
-            <div class="header-image">
-                <div class="headline">
-                    <div class="headline-content">
+            <div className="header-image">
+                <div className="headline">
+                    <div className="headline-content">
                         <h1>Limpieza California</h1>
                         <h2>Especialistas En Limpieza</h2>
                     </div>
@@ -24,9 +24,9 @@ const Index = () =>(
                 <div className="featurette" id="about">
                     <img className="featurette-image img-circle img-responsive pull-right" src={oficinas}></img>
                     <h2 className="featurette-heading">Limpieza Diaria De Oficinas
-                        <span className="text-muted">Con Personal Permanente O Parcial.</span>
+                        <span className="text-muted"> Con Personal Permanente O Parcial.</span>
                     </h2>
-                    <p className="lead">Con personal Permanente A Jornada Completa O Jornada Parcial.</p>
+                    <p className="lead">Con Servicio A Jornada Completa O Parcial.</p>
                 </div>
 
                 <hr className="featurette-divider" />
@@ -34,7 +34,7 @@ const Index = () =>(
                 <div className="featurette" id="services">
                     <img className="featurette-image img-circle img-responsive pull-left" src={mantenimiento}></img>
                     <h2 className="featurette-heading">Limpieza De Mantenimiento
-                        <span className="text-muted">Regular Y A Fondo.</span>
+                        <span className="text-muted"> Regular Y A Fondo.</span>
                     </h2>
                     <p className="lead">Segun Las Necesidades De Nuestros Clientes.</p>
                 </div>
@@ -44,7 +44,7 @@ const Index = () =>(
                 <div className="featurette" id="contact">
                     <img className="featurette-image img-circle img-responsive pull-right" src={obra}></img>
                     <h2 className="featurette-heading">Limpieza Industrial
-                        <span className="text-muted">Programado y Puntual.</span>
+                        <span className="text-muted"> Programado y Puntual.</span>
                     </h2>
                     <p className="lead">Desarrollando un plan de trabajo adecuado a su Empresa.</p>
                 </div>
@@ -54,9 +54,9 @@ const Index = () =>(
                 <div className="featurette" id="contact">
                     <img className="featurette-image img-circle img-responsive pull-left" src={industrial}></img>
                     <h2 className="featurette-heading">Limpieza Final De Obra
-                        <span className="text-muted">Terminadas Y En Operacion.</span>
+                        <span className="text-muted"> Terminadas Y En Operacion.</span>
                     </h2>
-                    <p className="lead">Logrando habitilidad al instante concluida la limpieza.</p>
+                    <p className="lead">Logrando habitabilidad al instante concluida la limpieza.</p>
                 </div>
 
                 <hr className="featurette-divider" />
@@ -64,9 +64,9 @@ const Index = () =>(
                 <div className="featurette" id="contact">
                     <img className="featurette-image img-circle img-responsive pull-right" src={sillon}></img>
                     <h2 className="featurette-heading">Limpieza Y Desmanchado
-                        <span className="text-muted">De Alfombras, Sillas y Sillones.</span>
+                        <span className="text-muted"> De Alfombras, Sillas y Sillones.</span>
                     </h2>
-                    <p className="lead">Servicio realizado con el metodo mas avanzado en limpieza a vapor, utilizado productos efectivos en eliminacion de manchas y olores.</p>
+                    <p className="lead">Servicio realizado con el metodo mas avanzado en limpieza a vapor, utilizado productos efectivos en eliminacion de bacterias, manchas y olores.</p>
                 </div>
             <Footer />
     </div>
