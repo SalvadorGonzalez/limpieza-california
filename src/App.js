@@ -4,7 +4,7 @@ import Index from './pages/index'
 
 function App() {
   return (
-    <div>
+    <div className="container-fluid">
       <Index />
     </div>
   );

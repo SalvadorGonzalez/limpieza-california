@@ -31,3 +31,15 @@
     transform: rotate(360deg);
   }
 }
+
+
+.container-fluid{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+@media(min-width:991px) {
+  .container-fluid{
+    width: 990px;
+  }
+}
