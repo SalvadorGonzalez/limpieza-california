@@ -10,6 +10,23 @@ import industrial from './img/limpieza-industrial.jpg';
 import sillon from './img/limpieza-sillon.jpg';
 import garantia from './img/garantia.png';
 import experiencia from './img/experiencia.png';
+import mantenimiento0 from './img/mantenimiento-0.png';
+import mantenimiento1 from './img/mantenimiento-1.png';
+import mantenimiento2 from './img/mantenimiento-2.png';
+import mantenimiento3 from './img/mantenimiento-3.png';
+
+import vapor0 from './img/vapor-0.png';
+import vapor1 from './img/vapor-1.png';
+import vapor2 from './img/vapor-2.png';
+import vapor3 from './img/vapor-3.png';
+
+import piso1 from './img/piso-1.png'
+import piso2 from './img/piso-2.png'
+import piso3 from './img/piso-3.png'
+
+const handle_form = () =>{
+    return "Hola Limpieza California, Mi nombre es "
+}
 
 const Index = () =>(
     <div>
@@ -27,6 +44,13 @@ const Index = () =>(
                             <img className="garantia-sello" src={garantia}></img>
                         </div>
                     </div>
+
+                 <div className="row col-12 fixed-phrase">
+                     <p className='lead col-12'>Contamos con mas de 30 años de experiencia, establecidos en Tijuana B.C.</p>
+                     
+                     <img className="img-center-fix" src={experiencia}></img>
+                 </div>
+                        
 
                 <div className="row ">
                     <div className="featurette col-xs-12 col-sm-6 col-md-4 col-lg-4" id="about">
@@ -75,6 +99,86 @@ const Index = () =>(
                     </div>
 
                 </div>
+                
+                <div className="row padding-fixed">
+                    <hr className="featurette-divider divider-width" />
+                    <h2 className="featurette-heading col-12">Servicio de Mantenimiento</h2>
+                    <p className="lead col-12">Elementos y/o grupos capacitados para la realización diaria, semanal o eventual que su establecimiento requiere.</p>
+                    <ul className="col-6 extra-padding">
+                        <li>Maquiladoras</li>
+                        <li>Oficinas</li>
+                        <li>Negocios</li>
+                        <li>Escuelas</li>
+                        <li>Comercio</li>
+                        <li>Hospitales</li>
+                        <li>Terminado de obra</li>
+                    </ul>
+                    
+                    <img src={mantenimiento0} alt="jabkdjas" className="img-thumbnail width-fix"></img>
+                    
+                    <p className="lead col-12">Le ofrecemos el mejor plan de acuerdo a sus necesidades de limpieza.</p>
+                    <img src={mantenimiento1} alt="jabkdjas" className="img-thumbnail width-fix"></img>
+                    <img src={mantenimiento2} alt="jabkdjas" className="img-thumbnail width-fix"></img>
+                    <img src={mantenimiento3} alt="jabkdjas" className="img-thumbnail width-fix"></img>
+                    
+                </div>
+
+                <div className="row padding-fixed">
+                    <hr className="featurette-divider divider-width" />
+                    <h2 className="featurette-heading col-12">Lavado a Vapor</h2>
+                    <p className="lead col-12">Limpieza a vapor y con productos germicidas para la eliminación de ácaros de:</p>
+                    <ul className="col-6 extra-padding">
+                        <li>Alfombras</li>
+                        <li>Sillones</li>
+                        <li>Sillas</li>
+                        <li>Colchones</li>
+                        <li>Tapetes</li>
+                        <li>Interior de autos</li>
+                    </ul>
+                    
+                    <img src={vapor0} alt="jabkdjas" className="img-thumbnail width-fix"></img>
+                    
+                    <p className="lead col-12">Le ofrecemos el mejor plan de acuerdo a sus necesidades de limpieza.</p>
+                    <img src={vapor1} alt="jabkdjas" className="img-thumbnail width-fix"></img>
+                    <img src={vapor2} alt="jabkdjas" className="img-thumbnail width-fix"></img>
+                    <img src={vapor3} alt="jabkdjas" className="img-thumbnail width-fix"></img>
+                    
+                </div>
+
+                <div className="row padding-fixed">
+                    <hr className="featurette-divider divider-width" />
+                    <h2 className="featurette-heading col-12">Pisos</h2>
+                    <p className="lead col-12">Lavado, encerado y abrillantado</p>
+                    <ul className="col-6 extra-padding">
+                        <li>Tile</li>
+                        <li>Mármol</li>
+                        <li>Granito</li>
+                        <li>Duela</li>
+                        <li>Loseta</li>
+                        <li>Cemento</li>
+                        <li>Epóxido</li>
+                    </ul>
+                    
+                    
+                    <p className="lead col-12">Con productos de calidad normales y antiestáticos.</p>
+                    <img src={piso1} alt="jabkdjas" className="img-thumbnail width-fix"></img>
+                    <img src={piso2} alt="jabkdjas" className="img-thumbnail width-fix"></img>
+                    <img src={piso3} alt="jabkdjas" className="img-thumbnail width-fix"></img>
+                    
+                </div>
+
+                <div className="row padding-fixed form-section">
+                    <hr className="featurette-divider divider-width" />
+
+                    <h2 className="col-12">Solicita una cotizacion.</h2>
+                    <p className="col-6">Ing. Juan Ojeda Robles<br/> #14761 Col. Guadalupe<br/> Victoria C.P. 22426, Tijuana,<br/> Baja California.</p>
+                    <p className="col-6">Tel: 664 682-77-82 <br/> Tel: 664 682-73-27</p>
+                       
+                    <a className="btn btn-primary btn-lg btn-block" href={"mailto:limpieza_california@hotmail.com?subject=Correo de Pagina Web&body=" + handle_form() } >Contactanos</a>
+
+                </div>
+
+                
 
             </div>
 

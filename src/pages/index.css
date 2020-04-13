@@ -158,3 +158,46 @@ footer {
     text-align: center;
 }
 
+.img-ro {
+    border-radius: 15%;
+    height: 120px;
+}
+
+.padding-fixed{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.extra-padding{
+    padding-left: 35px;
+}
+
+.width-fix{
+    height: 200px;
+    margin: 0 auto;
+}
+
+.fixed-phrase{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.img-center-fix{
+    margin: 0 auto;
+    height: 125px;
+}
+
+.divider-width{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.form-section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.submit-custom{
+    width: 50%;
+    float: right;
+}

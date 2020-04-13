@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './Footer.css';
 
+
+
 const Footer = () => (
   <footer id="footer-b">
     <div className="row" id="footer-first-column">
@@ -28,11 +30,13 @@ const Footer = () => (
         
     <div className="row">
         <div className="col-lg-12 text-center">
-            <p>Copyright &copy; Limpieza California 2018</p>
+            <p>Copyright &copy; Limpieza California {(new Date().getFullYear())}</p>
         </div>
     </div>
   </footer>
 );
+
+
 
 Footer.propTypes = {};
 
