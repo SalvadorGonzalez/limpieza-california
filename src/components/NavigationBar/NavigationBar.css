@@ -18,3 +18,19 @@
   #main-navigation{
     padding-top: 0px;
   }
+
+  .fa-phone{
+    color: forestgreen;
+  }
+
+  #phone-number{
+    font-size: 14px;
+  }
+
+  .center{
+    width: 60%;
+  }
+
+  .navbar-nav a{
+    margin: 0 auto;
+  }

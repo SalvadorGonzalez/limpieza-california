@@ -100,7 +100,7 @@ const Index = () =>(
 
                 </div>
                 
-                <div className="row padding-fixed">
+                <div id="servicios" className="row padding-fixed">
                     <hr className="featurette-divider divider-width" />
                     <h2 className="featurette-heading col-12">Servicio de Mantenimiento</h2>
                     <p className="lead col-12">Elementos y/o grupos capacitados para la realización diaria, semanal o eventual que su establecimiento requiere.</p>
@@ -167,7 +167,7 @@ const Index = () =>(
                     
                 </div>
 
-                <div className="row padding-fixed form-section">
+                <div id="contacto" className="row padding-fixed form-section">
                     <hr className="featurette-divider divider-width" />
 
                     <h2 className="col-12">Solicita una cotizacion.</h2>

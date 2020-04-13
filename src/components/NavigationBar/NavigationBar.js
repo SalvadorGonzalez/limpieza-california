@@ -12,6 +12,11 @@ const NavigationBar = () => (
     <a href="#">
       <img src={logo} id="logo-limpieza"></img>
     </a>
+    <a href="tel:6827782" className="d-none d-block d-xl-none d-lg-none d-md-none">
+      <i className="fas fa-phone"></i>
+      <span id="phone-number">(664) 682-77-82</span>
+    </a>
+    
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -19,11 +24,12 @@ const NavigationBar = () => (
     <div className="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
       <div className="navbar-nav center text-center">
         <a className="nav-item nav-link active" href="#">Inicio <span className="sr-only">(current)</span></a>
-        <a className="nav-item nav-link" href="#">Servicios</a>
-        <a className="nav-item nav-link" href="#">Contacto</a>
-        <button type="button" class="btn btn-default" aria-label="Left Align">
-  <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
-</button>
+        <a className="nav-item nav-link" href="#servicios">Servicios</a>
+        <a className="nav-item nav-link" href="#contacto">Contacto</a>
+        <a href="tel:6827782" className="justify-content-center align-self-center">
+          <i className="fas fa-phone"></i>
+          <span id="phone-number">(664) 682-77-82</span>
+        </a>
       </div>
     </div>
   </nav>
