@@ -81,7 +81,7 @@ const Index = () =>(
                         <p className="lead">Segun Las Necesidades De Nuestros Clientes.</p>
                     </div>
 
-                    <div className="featurette col-xs-12 col-sm-6 col-md-6 col-lg-6" id="contact">
+                    <div className="featurette col-xs-12 col-sm-6 col-md-4 col-lg-4" id="contact">
                         <hr className="featurette-divider" />
                         <img className="featurette-image img-circle img-responsive pull-right" src={obra}></img>
                         <h2 className="featurette-heading">Limpieza Industrial
@@ -90,7 +90,7 @@ const Index = () =>(
                         <p className="lead">Desarrollando un plan de trabajo adecuado a su Empresa.</p>
                     </div>
 
-                    <div className="featurette col-xs-12 col-sm-6 col-md-6 col-lg-6" id="contact">
+                    <div className="featurette col-xs-12 col-sm-6 col-md-4 col-lg-4" id="contact">
                         <hr className="featurette-divider" />
                         <img className="featurette-image img-circle img-responsive pull-left" src={industrial}></img>
                         <h2 className="featurette-heading">Limpieza Final De Obra
@@ -99,7 +99,7 @@ const Index = () =>(
                         <p className="lead">Logrando habitabilidad al instante concluida la limpieza.</p>
                     </div>
 
-                    <div className="featurette col-xs-12 col-sm-12 col-md-6 col-lg-6" id="contact">
+                    <div className="featurette col-xs-12 col-sm-6 col-md-4 col-lg-4" id="contact">
                         <hr className="featurette-divider" />
                         <img className="featurette-image img-circle img-responsive pull-right" src={sillon}></img>
                         <h2 className="featurette-heading">Limpieza Y Desmanchado
@@ -166,7 +166,7 @@ const Index = () =>(
                         <li>Duela</li>
                         <li>Loseta</li>
                         <li>Cemento</li>
-                        <li>Epóxido</li>
+                        <li>Epóxico</li>
                     </ul>
                     
                     
@@ -181,7 +181,7 @@ const Index = () =>(
                     <hr className="featurette-divider divider-width" />
 
                     <h2 className="col-12">Solicita una cotizacion.</h2>
-                    <p className="col-6">Ing. Juan Ojeda Robles<br/> #14761 Col. Guadalupe<br/> Victoria C.P. 22426, Tijuana,<br/> Baja California.</p>
+                    <p className="col-6">Calle Ing. Juan Ojeda Robles<br/> #14761 Col. Guadalupe<br/> Victoria C.P. 22426, Tijuana,<br/> Baja California.</p>
                     <p className="col-6">Tel: 664 682-77-82 <br/> Tel: 664 682-73-27</p>
                        
                     <a className="btn btn-primary btn-lg btn-block" href={"mailto:limpieza_california@hotmail.com?subject=Correo de Pagina Web&body=" + handle_form() } >Contactanos</a>
