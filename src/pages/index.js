@@ -3,6 +3,7 @@ import NavigationBar from '../components/NavigationBar/NavigationBar';
 import Footer from '../components/Footer/Footer';
 import './index.css'
 
+import nebulazacion from './img/nebulizacion.jpg';
 import oficinas from './img/limpieza-oficinas.jpg';
 import mantenimiento from './img/limpieza-mantenimiento.jpg';
 import obra from './img/limpieza-obra.jpg';
@@ -54,6 +55,15 @@ const Index = () =>(
 
                 <div className="row ">
                     <div className="featurette col-xs-12 col-sm-6 col-md-4 col-lg-4" id="about">
+                        <hr className="featurette-divider" />
+                        <img className="featurette-image img-circle img-responsive pull-right" src={nebulazacion}></img>
+                        <h2 className="featurette-heading">Desinfección por Nebulización
+                            <span className="text-muted"> Eliminación de virus y bacterias.</span>
+                        </h2>
+                        <p className="lead">Por Vía Vérea a Superficies.</p>
+                    </div>
+
+                    <div className="featurette col-xs-12 col-sm-6 col-md-4 col-lg-4" id="about">
                     <hr className="featurette-divider" />
                         <img className="featurette-image img-circle img-responsive pull-right" src={oficinas}></img>
                         <h2 className="featurette-heading">Limpieza Diaria De Oficinas
@@ -65,13 +75,13 @@ const Index = () =>(
                     <div className="featurette col-xs-12 col-sm-6 col-md-4 col-lg-4" id="services">
                         <hr className="featurette-divider" />
                         <img className="featurette-image img-circle img-responsive pull-left" src={mantenimiento}></img>
-                        <h2 className="featurette-heading">Limpieza De Mantenimiento
+                        <h2 className="featurette-heading">Limpieza Y Mantenimiento
                             <span className="text-muted"> Regular Y A Fondo.</span>
                         </h2>
                         <p className="lead">Segun Las Necesidades De Nuestros Clientes.</p>
                     </div>
 
-                    <div className="featurette col-xs-12 col-sm-6 col-md-4 col-lg-4" id="contact">
+                    <div className="featurette col-xs-12 col-sm-6 col-md-6 col-lg-6" id="contact">
                         <hr className="featurette-divider" />
                         <img className="featurette-image img-circle img-responsive pull-right" src={obra}></img>
                         <h2 className="featurette-heading">Limpieza Industrial
